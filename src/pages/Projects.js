@@ -2,6 +2,7 @@ import React from "react";
 import truck from "../asset/truck2.jpg";
 import root from "../asset/img1.jpg";
 import quiz from "../asset/quiz.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -19,6 +20,9 @@ const Projects = () => {
                 {" "}
                 <button className="btn btn-accent text-white">Live Link</button>
               </a>{" "}
+              <Link to="/peterbilt">
+                <button className="btn btn-warning text-white">Details</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -32,6 +36,9 @@ const Projects = () => {
               <a target="blank" href="https://project-roots-1f819.web.app/">
                 <button className="btn btn-accent text-white">Live Link</button>
               </a>{" "}
+              <Link to="/root">
+                <button className="btn btn-warning text-white">Details</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -48,6 +55,9 @@ const Projects = () => {
               >
                 <button className="btn btn-accent text-white">Live Link</button>
               </a>
+              <Link to="/quiz">
+                <button className="btn btn-warning text-white">Details</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -5,6 +5,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Peterbilt from "./Projects/Peterbilt";
+import Quiz from "./Projects/Quiz";
+import Roots from "./Projects/Roots";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +30,18 @@ function App() {
         {
           path: "/contact",
           element: <Contact></Contact>,
+        },
+        {
+          path: "/peterbilt",
+          element: <Peterbilt></Peterbilt>,
+        },
+        {
+          path: "/root",
+          element: <Roots></Roots>,
+        },
+        {
+          path: "/quiz",
+          element: <Quiz></Quiz>,
         },
       ],
     },

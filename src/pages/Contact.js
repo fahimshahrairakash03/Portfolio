@@ -2,10 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="text-center">
+    <div className="text-center ">
       <h1 className="text-5xl font-bold text-center my-5">Contact Me</h1>
-      <div>
+      <div className="w-1/2 mx-auto">
         <form
+          className="w-full"
           action="https://formsubmit.co/fahimshahriarakash03@gmail.com"
           method="POST"
         >
@@ -20,12 +21,12 @@ const Contact = () => {
             type="text"
             name="email"
             placeholder="Email"
-            className="my-2 input input-bordered w-full max-w-xs"
+            className="my-2  input input-bordered w-full max-w-xs"
           />
           <br />
           <textarea
-            className="my-2 textarea textarea-bordered"
-            placeholder="Bio"
+            className="w-full my-2 textarea textarea-bordered"
+            placeholder="Message"
           ></textarea>
           <br />
           <button className="btn btn-secondary " type="submit">
